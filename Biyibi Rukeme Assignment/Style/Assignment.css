@@ -1,0 +1,210 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.Main {
+    height: 100%;
+}
+
+.Parent_1 {
+    background-image: url("Assets/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 42.5vh;
+    width: 100%;
+    }
+
+button.Child_1 {
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: rgb(218, 32, 119);
+    cursor: pointer;
+    width: 8vw;
+    font-family: Trebuchet MS;
+    color: white;
+    height: 4vh;
+    margin-left: 80vw;
+    margin-top: 0.5vw;
+    font-size: 1.8vh;
+}
+
+button.Child_1:hover {
+    background: black;
+    color: red;
+}
+
+div.Child_2 {
+    width: 40%;
+    margin: auto;
+    height: 100%;
+}
+
+h1 {
+    font-size: 5vh;
+    font-family: Trebuchet MS;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
+    height: 5vh;
+}
+
+p.Child_2  {
+    font-family: Trebuchet MS;
+    font-size: 2.1vh;
+    line-height: 3.5vh;
+    color: white;
+    margin-bottom: 5vh;
+    height: 8vh;
+}
+
+button.Child_2 {
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: rgb(97, 183, 218);
+    cursor: pointer;
+    width: 10vw;
+    font-family: Trebuchet MS;
+    color: white;
+    font-size: 1.8vh;
+    height: 4.7vh;
+}
+
+button.Child_2:hover {
+    background: black;
+    color: red;
+}
+
+span {
+    font-family: Trebuchet MS;
+    color: white;
+    font-size: 2vh;
+    margin-left: 2.5vw;
+}
+
+.Child_4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    column-gap: 1vw;
+    row-gap: 2vh;
+    margin-right: 26vw;
+    margin-left: 26vw;
+    margin-top: 5vh;
+
+}
+
+.Child_5 {
+    margin-left: 30%;
+}
+
+.Child_6 {
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: rgb(33, 164, 216);
+    cursor: pointer;
+    width: 5vw;
+    font-family: Trebuchet MS;
+    color: white;
+    font-size: 1.8vh;
+    height: 4.5vh;
+}
+
+.Child_6:hover {
+    background: black;
+    color: red;
+}
+
+.Child_7 {
+    border-radius: 25px;
+    border-color: rgb(33, 164, 216);
+    background-color: white;
+    cursor: pointer;
+    width: 8vw;
+    font-family: Trebuchet MS;
+    color: rgb(33, 164, 216);
+    font-size: 1.8vh;
+    height: 4.5vh;
+    margin-left: 0.5vw;
+}
+
+.Child_7:hover {
+    background: black;
+    color: red;
+}
+
+h2 {
+    margin-left: 38.5%; 
+    margin-top: 2vh;
+    margin-bottom: 4.5vh;
+    font-size: 4.5vh;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+
+.Item1 {
+    background-image: url(Assets/1.jpg);
+    background-size: contain;
+    border: transparent;
+    padding: 8vh;
+    margin-bottom: 2vh;
+}
+
+.Item2 {
+    background-image: url(Assets/2.jpg);
+    background-size: cover;
+    border: transparent;
+    padding: 8vh;
+}
+
+.Item3 {
+    background-image: url(Assets/3.jpg);
+    background-size: contain;
+    border: transparent;
+    padding: 8vh;
+    margin-bottom: 2vh;
+}
+
+.Item4 {
+    background-image: url(Assets/4.jpg);
+    background-size: contain;
+    border: transparent;
+    padding: 8vh;
+}
+
+.Item5 {
+    background-image: url(Assets/5.jpg);
+    background-size: contain;
+    border: transparent;
+    padding: 8vh;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+
+}
+
+.Item6 {
+    background-image: url(Assets/6.jpg);
+    background-size: contain;
+    border: transparent;
+    padding: 8vh;
+}
+
+.Item7 {
+    background-image: url(Assets/7.jpg);
+    background-size: contain;
+    border: transparent;
+    padding: 8vh;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+}
+
+.Item8 {
+    background-image: url(Assets/8.jpg);
+    background-size: contain;
+    border: transparent;
+    padding: 8vh;
+}
